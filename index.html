@@ -2,96 +2,64 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>移动流量券合集</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script>
         tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#3B82F6',
-                        secondary: '#10B981',
-                    },
-                }
-            }
+            theme:{extend:{colors:{main:'#4080ff'}}}
         }
     </script>
     <style>
-        .gradient-bg {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        .top-bg{background:linear-gradient(135deg,#667eea,#764ba2);}
+        .link-box{
+            -webkit-touch-callout: default !important;
+            user-select: none;
+            pointer-events:auto;
         }
-        .card-hover {transition: 0.3s;}
-        .card-hover:hover {transform: translateY(-3px);box-shadow: 0 8px 20px #00000015;}
-        .hold-item {
-            user-select: all;
-            -webkit-user-select: all;
-            pointer-events: auto;
-        }
+        a{text-decoration:none !important;color:inherit;}
     </style>
 </head>
-<body class="bg-gray-50">
-    <div class="min-h-screen">
-        <nav class="gradient-bg text-white py-5 shadow-lg">
-            <h1 class="text-2xl font-bold text-center"><i class="fas fa-wifi mr-2"></i>移动流量券合集</h1>
-            <p class="text-center mt-2 opacity-90">长按条目即可预览复制链接</p>
-        </nav>
-
-        <main class="px-4 py-6 max-w-2xl mx-auto">
-            <div class="bg-white rounded-2xl shadow-lg p-5 mb-6">
-                <h2 class="text-lg font-bold text-gray-800 mb-4"><i class="fas fa-link text-primary mr-2"></i>流量领取入口</h2>
-                <div class="space-y-3">
-                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover hold-item" data-url="https://wx.10086.cn/qwhdhub/leadin/1026033134?A_C_CODE=Fi11gwHIcu&channelId=#/">
-                        <i class="fas fa-gift text-primary mr-2"></i>流量入口 1
-                        <span class="ml-2 text-sm text-gray-400">【长按复制】</span>
-                    </div>
-                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover hold-item" data-url="https://wx.10086.cn/qwhdhub/leadin/1026033142?A_C_CODE=zKI6bhdcRw&channelId=#/">
-                        <i class="fas fa-gift text-primary mr-2"></i>流量入口 2
-                        <span class="ml-2 text-sm text-gray-400">【长按复制】</span>
-                    </div>
-                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover hold-item" data-url="https://wx.10086.cn/qwhdhub/leadin/1026033150?A_C_CODE=4rirBtGLpy&channelId=#/">
-                        <i class="fas fa-gift text-primary mr-2"></i>流量入口 3
-                        <span class="ml-2 text-sm text-gray-400">【长按复制】</span>
-                    </div>
-                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover hold-item" data-url="https://wx.10086.cn/website/bind/bindAccount/new?redirectSource=SSO_YQS&redirectUrl=https%3A%2F%2Fwx.10086.cn%2Fqwhdsso%2Fredirect%3Fsid%3DQWHDSSOD20260530T080426506DU1126050488HdtjhqR621175&activityId=1021010101&activityName=中国移动10086">
-                        <i class="fas fa-gift text-primary mr-2"></i>流量入口 4
-                        <span class="ml-2 text-sm text-gray-400">【长按复制】</span>
-                    </div>
-                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover hold-item" data-url="https://wx.10086.cn/qwhdhub/diy-client/1126050488?A_C_CODE=hVXu8J1Ai5">
-                        <i class="fas fa-gift text-primary mr-2"></i>流量入口 5
-                        <span class="ml-2 text-sm text-gray-400">【长按复制】</span>
-                    </div>
-                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover hold-item" data-url="https://dev.coc.10086.cn/qwhdhub/diy-client/1126050488?A_C_CODE=hVXu8J1Ai5">
-                        <i class="fas fa-gift text-primary mr-2"></i>流量入口 6
-                        <span class="ml-2 text-sm text-gray-400">【长按复制】</span>
-                    </div>
-                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover hold-item" data-url="https://dev.coc.10086.cn/coc/web6/ageFeedbackV2/?pageId=1879720710683729920&channelId=P00000001067">
-                        <i class="fas fa-gift text-primary mr-2"></i>流量入口 7
-                        <span class="ml-2 text-sm text-gray-400">【长按复制】</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bg-green-50 rounded-2xl shadow-lg p-5 border border-green-200">
-                <h2 class="text-lg font-bold text-green-800 mb-3"><i class="fas fa-info-circle text-secondary mr-2"></i>温馨提示</h2>
-                <ul class="text-green-700 space-y-2">
-                    <li>• 所有券7天内兑换完成即可</li>
-                    <li>• 建议错开时间分批领取</li>
-                </ul>
-            </div>
-        </main>
-
-        <footer class="text-center text-gray-500 py-6 text-sm">
-            免费流量福利 · 理性领取
-        </footer>
+<body class="bg-gray-100">
+    <div class="top-bg text-white py-5 shadow-md">
+        <h1 class="text-xl font-bold text-center"><i class="fa fa-wifi mr-2"></i>移动流量券合集</h1>
+        <p class="text-center mt-2 text-sm opacity-90">禁止点击 · 长按即可复制链接</p>
     </div>
 
-    <script>
-        // 禁止单击跳转，仅长按唤起浏览器复制预览
-        document.querySelectorAll('.hold-item').forEach(item => {
-            item.addEventListener('click',e=>e.preventDefault());
-        })
-    </script>
+    <div class="max-w-xl mx-auto px-4 py-5">
+        <div class="bg-white rounded-xl shadow p-4 mb-5">
+            <h2 class="font-bold text-gray-700 mb-4"><i class="fa fa-link text-main mr-2"></i>领取入口</h2>
+            <div class="space-y-3">
+                <a href="https://wx.10086.cn/qwhdhub/leadin/1026033134?A_C_CODE=Fi11gwHIcu&channelId=#/" class="block p-4 bg-blue-50 rounded-lg border-l-4 border-main link-box" onclick="return false;">
+                    <i class="fa fa-gift text-main mr-2"></i>流量入口1 <span class="text-xs text-gray-400">长按复制</span>
+                </a>
+                <a href="https://wx.10086.cn/qwhdhub/leadin/1026033142?A_C_CODE=zKI6bhdcRw&channelId=#/" class="block p-4 bg-blue-50 rounded-lg border-l-4 border-main link-box" onclick="return false;">
+                    <i class="fa fa-gift text-main mr-2"></i>流量入口2 <span class="text-xs text-gray-400">长按复制</span>
+                </a>
+                <a href="https://wx.10086.cn/qwhdhub/leadin/1026033150?A_C_CODE=4rirBtGLpy&channelId=#/" class="block p-4 bg-blue-50 rounded-lg border-l-4 border-main link-box" onclick="return false;">
+                    <i class="fa fa-gift text-main mr-2"></i>流量入口3 <span class="text-xs text-gray-400">长按复制</span>
+                </a>
+                <a href="https://wx.10086.cn/website/bind/bindAccount/new?redirectSource=SSO_YQS&redirectUrl=https%3A%2F%2Fwx.10086.cn%2Fqwhdsso%2Fredirect%3Fsid%3DQWHDSSOD20260530T080426506DU1126050488HdtjhqR621175&activityId=1021010101&activityName=中国移动10086" class="block p-4 bg-blue-50 rounded-lg border-l-4 border-main link-box" onclick="return false;">
+                    <i class="fa fa-gift text-main mr-2"></i>流量入口4 <span class="text-xs text-gray-400">长按复制</span>
+                </a>
+                <a href="https://wx.10086.cn/qwhdhub/diy-client/1126050488?A_C_CODE=hVXu8J1Ai5" class="block p-4 bg-blue-50 rounded-lg border-l-4 border-main link-box" onclick="return false;">
+                    <i class="fa fa-gift text-main mr-2"></i>流量入口5 <span class="text-xs text-gray-400">长按复制</span>
+                </a>
+                <a href="https://dev.coc.10086.cn/qwhdhub/diy-client/1126050488?A_C_CODE=hVXu8J1Ai5" class="block p-4 bg-blue-50 rounded-lg border-l-4 border-main link-box" onclick="return false;">
+                    <i class="fa fa-gift text-main mr-2"></i>流量入口6 <span class="text-xs text-gray-400">长按复制</span>
+                </a>
+                <a href="https://dev.coc.10086.cn/coc/web6/ageFeedbackV2/?pageId=1879720710683729920&channelId=P00000001067" class="block p-4 bg-blue-50 rounded-lg border-l-4 border-main link-box" onclick="return false;">
+                    <i class="fa fa-gift text-main mr-2"></i>流量入口7 <span class="text-xs text-gray-400">长按复制</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="bg-green-50 rounded-xl shadow p-4 border border-green-200">
+            <h3 class="font-bold text-green-700 mb-2"><i class="fa fa-info-circle mr-2"></i>温馨提示</h3>
+            <p class="text-green-600 text-sm">1.所有流量券7天内兑换完毕即可</p>
+            <p class="text-green-600 text-sm">2.建议错开时间分批领取</p>
+        </div>
+    </div>
 </body>
 </html>
