@@ -24,37 +24,52 @@
         }
         .card-hover {transition: 0.3s;}
         .card-hover:hover {transform: translateY(-3px);box-shadow: 0 8px 20px #00000015;}
+        .hold-item {
+            user-select: all;
+            -webkit-user-select: all;
+            pointer-events: auto;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
     <div class="min-h-screen">
         <nav class="gradient-bg text-white py-5 shadow-lg">
             <h1 class="text-2xl font-bold text-center"><i class="fas fa-wifi mr-2"></i>移动流量券合集</h1>
-            <p class="text-center mt-2 opacity-90">点击直达领取页面</p>
+            <p class="text-center mt-2 opacity-90">长按条目即可预览复制链接</p>
         </nav>
 
         <main class="px-4 py-6 max-w-2xl mx-auto">
             <div class="bg-white rounded-2xl shadow-lg p-5 mb-6">
-                <h2 class="text-lg font-bold text-gray-800 mb-4"><i class="fas fa-link text-primary mr-2"></i>直达领取入口</h2>
+                <h2 class="text-lg font-bold text-gray-800 mb-4"><i class="fas fa-link text-primary mr-2"></i>流量领取入口</h2>
                 <div class="space-y-3">
-                    <a target="_blank" href="https://wx.10086.cn/qwhdhub/leadin/1026033134?A_C_CODE=Fi11gwHIcu&channelId=#/" class="block p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover">
-                        <i class="fas fa-external-link-alt text-primary mr-2"></i>流量入口 1
-                    </a>
-                    <a target="_blank" href="https://wx.10086.cn/qwhdhub/leadin/1026033142?A_C_CODE=zKI6bhdcRw&channelId=#/" class="block p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover">
-                        <i class="fas fa-external-link-alt text-primary mr-2"></i>流量入口 2
-                    </a>
-                    <a target="_blank" href="https://wx.10086.cn/qwhdhub/leadin/1026033150?A_C_CODE=4rirBtGLpy&channelId=#/" class="block p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover">
-                        <i class="fas fa-external-link-alt text-primary mr-2"></i>流量入口 3
-                    </a>
-                    <a target="_blank" href="https://wx.10086.cn/website/bind/bindAccount/new?redirectSource=SSO_YQS&redirectUrl=https%3A%2F%2Fwx.10086.cn%2Fqwhdsso%2Fredirect%3Fsid%3DQWHDSSOD20260530T080426506DU1126050488HdtjhqR621175&activityId=1021010101&activityName=中国移动10086" class="block p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover">
-                        <i class="fas fa-external-link-alt text-primary mr-2"></i>流量入口 4
-                    </a>
-                    <a target="_blank" href="https://dev.coc.10086.cn/coc3/canvas/rightsmarket-h5-canvas/online/tjhlld?channelCode=P00000131192&pageRecorded=true" class="block p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover">
-                        <i class="fas fa-external-link-alt text-primary mr-2"></i>流量入口 5
-                    </a>
-                    <a target="_blank" href="https://dev.coc.10086.cn/coc/web6/ageFeedbackV2/?pageId=1879720710683729920&channelId=P00000001067" class="block p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover">
-                        <i class="fas fa-external-link-alt text-primary mr-2"></i>流量入口 6
-                    </a>
+                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover hold-item" data-url="https://wx.10086.cn/qwhdhub/leadin/1026033134?A_C_CODE=Fi11gwHIcu&channelId=#/">
+                        <i class="fas fa-gift text-primary mr-2"></i>流量入口 1
+                        <span class="ml-2 text-sm text-gray-400">【长按复制】</span>
+                    </div>
+                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover hold-item" data-url="https://wx.10086.cn/qwhdhub/leadin/1026033142?A_C_CODE=zKI6bhdcRw&channelId=#/">
+                        <i class="fas fa-gift text-primary mr-2"></i>流量入口 2
+                        <span class="ml-2 text-sm text-gray-400">【长按复制】</span>
+                    </div>
+                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover hold-item" data-url="https://wx.10086.cn/qwhdhub/leadin/1026033150?A_C_CODE=4rirBtGLpy&channelId=#/">
+                        <i class="fas fa-gift text-primary mr-2"></i>流量入口 3
+                        <span class="ml-2 text-sm text-gray-400">【长按复制】</span>
+                    </div>
+                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover hold-item" data-url="https://wx.10086.cn/website/bind/bindAccount/new?redirectSource=SSO_YQS&redirectUrl=https%3A%2F%2Fwx.10086.cn%2Fqwhdsso%2Fredirect%3Fsid%3DQWHDSSOD20260530T080426506DU1126050488HdtjhqR621175&activityId=1021010101&activityName=中国移动10086">
+                        <i class="fas fa-gift text-primary mr-2"></i>流量入口 4
+                        <span class="ml-2 text-sm text-gray-400">【长按复制】</span>
+                    </div>
+                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover hold-item" data-url="https://wx.10086.cn/qwhdhub/diy-client/1126050488?A_C_CODE=hVXu8J1Ai5">
+                        <i class="fas fa-gift text-primary mr-2"></i>流量入口 5
+                        <span class="ml-2 text-sm text-gray-400">【长按复制】</span>
+                    </div>
+                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover hold-item" data-url="https://dev.coc.10086.cn/qwhdhub/diy-client/1126050488?A_C_CODE=hVXu8J1Ai5">
+                        <i class="fas fa-gift text-primary mr-2"></i>流量入口 6
+                        <span class="ml-2 text-sm text-gray-400">【长按复制】</span>
+                    </div>
+                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-primary card-hover hold-item" data-url="https://dev.coc.10086.cn/coc/web6/ageFeedbackV2/?pageId=1879720710683729920&channelId=P00000001067">
+                        <i class="fas fa-gift text-primary mr-2"></i>流量入口 7
+                        <span class="ml-2 text-sm text-gray-400">【长按复制】</span>
+                    </div>
                 </div>
             </div>
 
@@ -71,5 +86,12 @@
             免费流量福利 · 理性领取
         </footer>
     </div>
+
+    <script>
+        // 禁止单击跳转，仅长按唤起浏览器复制预览
+        document.querySelectorAll('.hold-item').forEach(item => {
+            item.addEventListener('click',e=>e.preventDefault());
+        })
+    </script>
 </body>
 </html>
